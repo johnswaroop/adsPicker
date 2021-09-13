@@ -78,12 +78,6 @@ let imgs = [
         "paperUrl": "https://www.bookmyad.com/publications/sandhya-times"
     },
     {
-        "name": "Mumbai Samachar",
-        "url": "https://www.bookmyad.com//media/upload/1562320564ms_logo.jpg",
-        "language": "Language - Gujarati",
-        "paperUrl": "https://www.bookmyad.com/publications/"
-    },
-    {
         "name": "Sandhyanand",
         "url": "https://www.bookmyad.com//media/upload/1494422489sandhyanand.jpg",
         "language": "Language - Marathi",

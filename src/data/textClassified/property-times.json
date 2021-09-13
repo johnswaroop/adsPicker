@@ -1,1 +1,114 @@
-{"property real estate":{"0":{"title":"The Times of India (Wkdy, Sun) + Property Times + The Economic Times - Chennai","price":"2000"},"1":{"title":"Times of India(Sun + weekday) +Property Times + The Economic Times + Mirror - Mumbai","price":"5500"},"2":{"title":"Times of India(Sun + weekday) + Property Times + Economic Times + Maharashtra Times + Navbharat Times + Mirror - Mumbai","price":"6500"}},"Lost and Found":{"0":{"title":"The Times of India (Wkdy, Sun) + Property Times + The Economic Times - Chennai","price":"2000"},"1":{"title":"Times of India(Sun + weekday) +Property Times + The Economic Times + Mirror - Mumbai","price":"5500"},"2":{"title":"Times of India(Sun + weekday) + Property Times + Economic Times + Maharashtra Times + Navbharat Times + Mirror - Mumbai","price":"6500"},"3":{"title":"The Times of India(Wkday + Sun) + Property Times + The Economic Times - Hyderabad","price":"950"},"4":{"title":"Times of india(Weekday + Sunday) + Property Times - Coimbatore","price":"500"},"5":{"title":"Times of india(Sndy) + Property Times + Navbharat Times + The Economic Times - Lucknow","price":"1400"},"6":{"title":"The Times of India + Mirror\n+ Maharashtra Times + Navbharat Times + Property Times - Mumbai","price":"6500"},"7":{"title":"Times of india - U.P. + Property Times + The Economic Times + Navbharat Times - Lucknow","price":"1400"},"8":{"title":"The Times of India (Fri, Sun), Property Times (Sat), SNTD (Any Day), Navbharat Times, Economic Times (Fri) - Delhi NCR","price":"4650"},"9":{"title":"The Times of India (Sndy + Wkdy) + Vijay Karnataka + Property Times + Economics Times + Mirror - Bangalore","price":"4250"},"10":{"title":"Times of India + Property Times - Ahemadabad","price":"850"},"11":{"title":"For property To-Let/Rent only\nProperty Times (Saturday)\n+ Times of India (Friday + Sunday)\n+ Economic Times(Fri) -Delhi Ncr","price":"2200"},"12":{"title":"The Times of India (Fri, Sun), Property Times (Sat), SNTD (Any Day), Navbharat Times, Economic Times (Fri) - Delhi NCR","price":"6000"},"13":{"title":"Property Times - Ahmedabad","price":"300"},"14":{"title":"Property Times - Bangalore","price":"1875"},"15":{"title":"Property Times - Baroda","price":"234"},"16":{"title":"Property Times - Chennai","price":"1900"},"17":{"title":"Property Times - Coimbatore","price":"425"},"18":{"title":"Property Times - Delhi","price":"4200"},"19":{"title":"Property Times - Hyderabad","price":"500"},"20":{"title":"Property Times - Lucknow","price":"800"},"21":{"title":"Property Times - Mumbai","price":"4000"},"22":{"title":"Property Times - Pune","price":"585"},"23":{"title":"Property Times - Visakhapatnam","price":"50"}}}
+{
+    "Property real estate": {
+        "0": {
+            "title": "The Times of India (Wkdy, Sun) + Property Times + The Economic Times - Chennai",
+            "price": "2000"
+        },
+        "1": {
+            "title": "Times of India(Sun + weekday) +Property Times + The Economic Times + Mirror - Mumbai",
+            "price": "5500"
+        },
+        "2": {
+            "title": "Times of India(Sun + weekday) + Property Times + Economic Times + Maharashtra Times + Navbharat Times + Mirror - Mumbai",
+            "price": "6500"
+        }
+    },
+    "Lost and Found": {
+        "0": {
+            "title": "The Times of India (Wkdy, Sun) + Property Times + The Economic Times - Chennai",
+            "price": "2000"
+        },
+        "1": {
+            "title": "Times of India(Sun + weekday) +Property Times + The Economic Times + Mirror - Mumbai",
+            "price": "5500"
+        },
+        "2": {
+            "title": "Times of India(Sun + weekday) + Property Times + Economic Times + Maharashtra Times + Navbharat Times + Mirror - Mumbai",
+            "price": "6500"
+        },
+        "3": {
+            "title": "The Times of India(Wkday + Sun) + Property Times + The Economic Times - Hyderabad",
+            "price": "950"
+        },
+        "4": {
+            "title": "Times of india(Weekday + Sunday) + Property Times - Coimbatore",
+            "price": "500"
+        },
+        "5": {
+            "title": "Times of india(Sndy) + Property Times + Navbharat Times + The Economic Times - Lucknow",
+            "price": "1400"
+        },
+        "6": {
+            "title": "The Times of India + Mirror\n+ Maharashtra Times + Navbharat Times + Property Times - Mumbai",
+            "price": "6500"
+        },
+        "7": {
+            "title": "Times of india - U.P. + Property Times + The Economic Times + Navbharat Times - Lucknow",
+            "price": "1400"
+        },
+        "8": {
+            "title": "The Times of India (Fri, Sun), Property Times (Sat), SNTD (Any Day), Navbharat Times, Economic Times (Fri) - Delhi NCR",
+            "price": "4650"
+        },
+        "9": {
+            "title": "The Times of India (Sndy + Wkdy) + Vijay Karnataka + Property Times + Economics Times + Mirror - Bangalore",
+            "price": "4250"
+        },
+        "10": {
+            "title": "Times of India + Property Times - Ahemadabad",
+            "price": "850"
+        },
+        "11": {
+            "title": "For property To-Let/Rent only\nProperty Times (Saturday)\n+ Times of India (Friday + Sunday)\n+ Economic Times(Fri) -Delhi Ncr",
+            "price": "2200"
+        },
+        "12": {
+            "title": "The Times of India (Fri, Sun), Property Times (Sat), SNTD (Any Day), Navbharat Times, Economic Times (Fri) - Delhi NCR",
+            "price": "6000"
+        },
+        "13": {
+            "title": "Property Times - Ahmedabad",
+            "price": "300"
+        },
+        "14": {
+            "title": "Property Times - Bangalore",
+            "price": "1875"
+        },
+        "15": {
+            "title": "Property Times - Baroda",
+            "price": "234"
+        },
+        "16": {
+            "title": "Property Times - Chennai",
+            "price": "1900"
+        },
+        "17": {
+            "title": "Property Times - Coimbatore",
+            "price": "425"
+        },
+        "18": {
+            "title": "Property Times - Delhi",
+            "price": "4200"
+        },
+        "19": {
+            "title": "Property Times - Hyderabad",
+            "price": "500"
+        },
+        "20": {
+            "title": "Property Times - Lucknow",
+            "price": "800"
+        },
+        "21": {
+            "title": "Property Times - Mumbai",
+            "price": "4000"
+        },
+        "22": {
+            "title": "Property Times - Pune",
+            "price": "585"
+        },
+        "23": {
+            "title": "Property Times - Visakhapatnam",
+            "price": "50"
+        }
+    }
+}

@@ -1,13 +1,11 @@
 import { useState, useEffect } from 'react'
-import adTypeDefault from './data/textClassified/the-times-of-india.json'
+import adTypeDefault from './data/textClassified/hindustan-times.json'
 import { useLocation } from 'react-router'
 import imgNameMap from './data/imgNameMap'
 
 
 
 const PackCard = (props) => {
-
-    console.log(props.title);
 
     return (
         <div className='packCard'>
@@ -16,7 +14,7 @@ const PackCard = (props) => {
             </div>
             <div className={"packTextCon"}>
                 <h3>{props.title}</h3>
-                <p>₹ <strong>{props.price}</strong> {(props.type == 'textClassified') ? ("for 5 lines") : "for 3x4"}</p>
+                <p>₹ <strong>{props.price}</strong> {(props.type === 'textClassified') ? ("for 5 lines") : "for 3x4"}</p>
             </div>
         </div>
     )
@@ -33,12 +31,15 @@ const Packs = () => {
     useEffect(() => {
         import(`./data/${type}/${location.pathname.split('/')[3]}.json`).then((ad) => {
             console.log(ad);
-            setCategory(Object.keys(ad)[1])
+            console.log(Object.keys(ad)[0] + " " + Object.keys(ad)[1]);
+            setCategory(Object.keys(ad)[2]);
             setAdType({ ...ad });
+        
         })
-    }, [type])
+    }, [type, location.pathname])
 
     let paperName = location.pathname.split('/')[2];
+
 
     return (
         <div className="App">
@@ -74,8 +75,11 @@ const Packs = () => {
                 {
                     Object.values(adType[category]).map((obj) => {
                         return (
-                            <PackCard paperName={paperName}
-                                type={type} title={obj.title} price={obj.price} />
+                            <PackCard
+                                paperName={paperName}
+                                type={type} title={obj.title}
+                                price={obj.price}
+                            />
                         )
                     })
                 }

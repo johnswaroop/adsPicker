@@ -19,6 +19,7 @@ p {
 *::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #ff7f35;
 }
 
@@ -87,18 +88,27 @@ p {
           justify-content: center;
 }
 
+.paperNav h1 {
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
 @media screen and (max-width: 1450px) {
   .paperNav {
     width: 80%;
     min-height: 5rem;
     margin-top: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
   }
-}
-
-.paperNav h1 {
-  font-weight: 500;
-  font-size: 2rem;
-  margin: 0 1rem;
+  .paperNav h1 {
+    font-size: 1rem;
+  }
 }
 
 .selectLanguage {
@@ -129,6 +139,26 @@ p {
 
 .selectLanguage select:focus {
   outline: none;
+}
+
+@media screen and (max-width: 1450px) {
+  .selectLanguage p,
+  .selectLanguage select {
+    font-size: 0.8rem;
+  }
+  .selectLanguage select {
+    width: 10rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .selectLanguage p,
+  .selectLanguage select {
+    font-size: 0.5rem;
+  }
+  .selectLanguage select {
+    width: 10rem;
+  }
 }
 
 .paperCard {

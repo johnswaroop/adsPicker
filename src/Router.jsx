@@ -2,7 +2,6 @@ import React from 'react'
 import {
     Switch,
     Route,
-    Link,
     BrowserRouter as Browser
 } from "react-router-dom";
 import PaperList from './PaperList'

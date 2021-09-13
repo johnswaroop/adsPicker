@@ -31,7 +31,6 @@ const Packs = () => {
     useEffect(() => {
         import(`./data/${type}/${location.pathname.split('/')[3]}.json`).then((ad) => {
             console.log(ad);
-            console.log(Object.keys(ad)[0] + " " + Object.keys(ad)[1]);
             setCategory(Object.keys(ad)[2]);
             setAdType({ ...ad });
         

@@ -1,4 +1,3 @@
-import imgs from './data/imgs'
 import { useState, useEffect } from 'react'
 import adTypeDefault from './data/textClassified/the-times-of-india.json'
 import { useLocation } from 'react-router'

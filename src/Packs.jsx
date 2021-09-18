@@ -33,7 +33,6 @@ const Packs = () => {
             console.log(ad);
             setCategory(Object.keys(ad)[2]);
             setAdType({ ...ad });
-        
         })
     }, [type, location.pathname])
 

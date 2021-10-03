@@ -5,6 +5,7 @@ body {
 
 h1,
 h3,
+h2,
 input,
 select,
 p {
@@ -225,6 +226,7 @@ p {
 .packCard {
   -webkit-animation: appear 1s ease-in-out;
           animation: appear 1s ease-in-out;
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -270,6 +272,175 @@ p {
 .packCard .packTextCon p {
   margin: 0;
   color: orange;
+}
+
+.calculator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  height: 97vh;
+  border-radius: 20px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 100;
+}
+
+.calculator .closeIcon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 4rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.calculator .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 4rem;
+}
+
+.calculator .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.calculator .img img {
+  border: 3px solid black;
+  border-radius: 15px;
+  height: 8rem;
+}
+
+.calculator .paperData {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.calculator .paperData h1,
+.calculator .paperData h3,
+.calculator .paperData p {
+  margin: 0;
+  margin-left: 2rem;
+}
+
+.calculator .paperData h1 {
+  margin-bottom: 0.5rem;
+}
+
+.calculator .paperData h3 {
+  margin-bottom: 0.5rem;
+}
+
+.calculator .paperData p {
+  font-size: 2rem;
+}
+
+.calculator .edit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4rem;
+  width: 100%;
+  padding-top: 0;
+}
+
+.calculator .edit textarea {
+  font-size: 2rem;
+  width: 24ch;
+  border-radius: 15px;
+  padding: 1rem;
+  border: none;
+  -webkit-box-shadow: 0 0 15px gainsboro;
+          box-shadow: 0 0 15px gainsboro;
+}
+
+.calculator .edit .editStats h3 {
+  font-weight: 400;
+  font-size: 1.65rem;
+  margin: 1rem 0;
+}
+
+.calculator .edit .calculateCash {
+  margin: 0 auto;
+}
+
+.calculator .edit .calculateCash h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.calculator .edit .calculateCash .row, .calculator .edit .calculateCash .checkout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  width: 100%;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.calculator .edit .calculateCash .row h1, .calculator .edit .calculateCash .checkout h1 {
+  margin-top: 0;
+}
+
+.calculator .edit .calculateCash .row .tag, .calculator .edit .calculateCash .checkout .tag {
+  font-weight: 400;
+}
+
+.calculator .edit .calculateCash .row .price, .calculator .edit .calculateCash .checkout .price {
+  width: 10rem;
+  text-align: right;
+}
+
+.calculator .edit .calculateCash .checkout {
+  margin-top: 3rem;
+}
+
+.calculator .edit .calculateCash .checkout .reset {
+  font-size: 1.5rem;
+  margin-right: 5rem;
+  color: gray;
+}
+
+.calculator .edit .calculateCash .checkout button {
+  border: none;
+  background-color: #ff7f35;
+  height: 3rem;
+  width: 16rem;
+  border-radius: 15;
+  font-size: 1.25rem;
+  color: white;
+  border-radius: 30px;
 }
 
 @-webkit-keyframes appear {
